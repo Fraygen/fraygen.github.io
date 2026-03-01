@@ -158,3 +158,39 @@ h4 {
     background: linear-gradient(135deg, #1030a5 0%, #1e74ff 100%);;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.275);
 }
+
+.bot-section {
+    margin: 50px 0;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.bot-section h3 {
+    color: white;
+    margin-bottom: 25px;
+    border-bottom: none;
+    font-size: 1.8rem;
+}
+
+.bot-button {
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+    color: white;
+    font-size: 22px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+    box-shadow: 0 10px 20px rgba(0, 176, 155, 0.4);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.bot-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 176, 155, 0.6);
+    background: linear-gradient(135deg, #96c93d, #00b09b);
+}
